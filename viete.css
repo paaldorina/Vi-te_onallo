@@ -45,3 +45,7 @@ form
 	text-align:left;
 	font-size:1.2em;
 }
+
+input[type=number] {
+	width: 50px;
+}
