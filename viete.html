@@ -45,12 +45,13 @@
     </p>
     <p><img class="keplet" src="megoldokeplet.png" alt="Képlet" title="Képlet"></p>
     <p>
-        a = <input type="number">
-        b = <input type="number">
-        c = <input type="number">
-        <input type="button" value="Számol">
+        a = <input type="number" id="inputA">
+        b = <input type="number" id="inputB">
+        c = <input type="number" id="inputC">
+        <input type="button" onclick="gyok();" value="Számol">
     </p>
-    A valós gyökök száma: <label for="gyokok">?</label>
+    A valós gyökök száma: <span id="eredmeny">?</span>
+    <script src="code.js"></script>
 </body>
 
 </html>
